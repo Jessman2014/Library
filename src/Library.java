@@ -168,7 +168,7 @@ public class Library {
 			System.out.print("Booknum: ");
 			
 			int booknum = sc.nextInt();
-			ResultSet r = s.executeQuery("Select count(L.copynum) from Copy C, Loan L, Book B where B.booknum = C.booknum and "
+			ResultSet r = s.executeQuery("Select count(distinct L.copynum) from Copy C, Loan L, Book B where B.booknum = C.booknum and "
 					+ "C.copynum = L.copynum and ret < '" + nowS + "' and B.booknum = " + booknum);
 			while (r.next()) {
 				System.out.println(r. getString(1));

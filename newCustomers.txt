@@ -1,0 +1,8 @@
+128|Gabriela|Mistral|NM
+129|Albert|Camus|NH
+131|Boris|Pasternak|NY
+132|Pablo|Neruda|CA
+133|Nadine|Gordimer|AL
+134|Seamus|Heaney|MA
+135|Gao|Xinjian|CA
+136|Doris|Lessing|VT
