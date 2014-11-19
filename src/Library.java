@@ -160,6 +160,7 @@ public class Library {
 		System.out.println();
 	}
 
+	//added code to check for multiple loans of the same copy
 	private void op3(Scanner sc) {
 		// TODO Auto-generated method stub
 		// TODO get date and compare it to ret
